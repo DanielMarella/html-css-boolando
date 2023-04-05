@@ -27,7 +27,7 @@ li{
     color: white;
 }
 
-/* ELIMINARE TUTTE LE ALTEZZE FISSE CON L'INSERIMENTO DEL CONTENUTO!!! */
+
 
 .head{
     width: 100%;
@@ -35,8 +35,7 @@ li{
     background-color: #FF6A00;
     justify-content: space-between;
     align-items: center;
-    padding: 0 200px;       /* <--- sistemare dopo inserimento contenuti*/
-  /* <--- sistemare dopo inserimento contenuti*/ 
+    padding: 0 200px;     
 }
 
 .personal{
@@ -52,7 +51,7 @@ li{
 }
 
 .navigation,
-.personal-area{
+.personal{
     gap: 1rem;
 }
 
@@ -72,6 +71,16 @@ li{
 
 main{
     margin-bottom: 5rem;
+}
+
+.price{
+    color: red;
+    font-size: .8rem;
+}
+
+.real-price{
+    text-decoration: line-through;
+    font-size: .8rem;
 }
 
 .container{
@@ -111,6 +120,12 @@ main{
     background-color: white;
 }
 
+
+.index{
+    position: absolute;
+    top: 100%;
+}
+
 .foot{
     height: 100px;
     color: white;
@@ -119,9 +134,30 @@ main{
     justify-content: space-between;
 }
 
+.information{
+    gap: 2rem;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon{
+    width: 1.5em;
+}
+
+.page{
+    padding-top: 1.5rem;
+}
+
+.foot-title{
+    padding-bottom: .7rem;
+}
+
 .alternative{
     display: none;
-
 }
 
 .cover{
