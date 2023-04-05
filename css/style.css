@@ -58,8 +58,25 @@ li{
 }
 
 .card{
+    position: relative;
     width: 300px;
     height: 400px;
     background-color: red;
     border: 5px solid blue;
 }
+
+.sconto{
+    position: absolute;
+    bottom: 30px;
+    background-color:turquoise;
+    border: 2px solid black;
+}
+
+.eco{
+    bottom: 30px;
+    left: 50px;
+    position: absolute;
+    background-color: green;
+    border: 2px solid black;
+}
+
