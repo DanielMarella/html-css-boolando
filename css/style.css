@@ -80,3 +80,11 @@ li{
     border: 2px solid black;
 }
 
+.heart{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    padding: 0 0.5rem;
+    font-size: 2rem;
+    background-color: white;
+}
