@@ -102,3 +102,46 @@ main{
     padding: 0 200px;
     justify-content: space-between;
 }
+
+
+.alternative{
+    display: none;
+
+}
+
+
+.man1:hover{
+    background-color: fuchsia;
+    display: inline-block;
+    background-size: cover;
+}
+
+.woman1:hover{
+    background-color: fuchsia;
+    display: inline-block;
+    background-size: cover;
+}
+
+.woman2:hover{
+    background-color: fuchsia;
+    display: inline-block;
+    background-size: cover;
+}
+
+.man2:hover{
+    background-color: fuchsia;
+    display: inline-block;
+    background-size: cover;
+}
+
+.woman3:hover{
+    background-color: fuchsia;
+    display: inline-block;
+    background-size: cover;
+}
+
+.woman4:hover{
+    background-color: fuchsia;
+    display: inline-block;
+    background-size: cover;
+}
