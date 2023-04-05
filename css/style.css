@@ -109,39 +109,73 @@ main{
 
 }
 
+.cover{
+background-size: cover;
+}
+
+.man1{
+    background-image: url(../img/1.webp);
+}
+
+.man2{
+    background-image: url(../img/4.webp);
+
+}
+
+.woman1{
+    background-image: url(../img/2.webp);
+
+}
+
+.woman2{
+    background-image: url(../img/3.webp);
+    
+}
+
+.woman3{
+    background-image: url(../img/5.webp);
+    
+}
+
+.woman4{
+    background-image: url(../img/6.webp);
+}
+
+
+
 
 .man1:hover{
-    background-color: fuchsia;
+    background-image: url(../img/1b.webp);
     display: inline-block;
     background-size: cover;
 }
 
 .woman1:hover{
-    background-color: fuchsia;
+    background-image: url(../img/2b.webp);
     display: inline-block;
     background-size: cover;
 }
 
 .woman2:hover{
-    background-color: fuchsia;
+    background-image: url(../img/3b.webp);
     display: inline-block;
     background-size: cover;
 }
 
 .man2:hover{
-    background-color: fuchsia;
+    background-image: url(../img/4b.webp);
     display: inline-block;
     background-size: cover;
 }
 
 .woman3:hover{
-    background-color: fuchsia;
+    background-image: url(../img/5b.webp);
     display: inline-block;
     background-size: cover;
 }
 
 .woman4:hover{
-    background-color: fuchsia;
+    background-image: url(../img/6b.webp);
     display: inline-block;
     background-size: cover;
 }
