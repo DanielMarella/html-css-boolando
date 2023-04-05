@@ -26,8 +26,8 @@ ul{
     background-color: #FF6A00;
     justify-content: space-between;
     align-items: center;
-    padding: 0 200px;       /* <--- ridurre dopo */
-    margin-bottom: 100px;  /* <--- ridurre dopo */ 
+    padding: 0 200px;       /* <--- sistemare dopo inserimento contenuti*/
+    margin-bottom: 100px;  /* <--- sistemare dopo inserimento contenuti*/ 
 }
 
 li{
@@ -49,6 +49,12 @@ li{
 
 .container{
     padding: 0 200px;
+    justify-content: space-between;
+
+}
+
+.row{
+    margin-top: 80px;   /* <--- sistemare dopo inserimento contenuti  */
 }
 
 .card{
