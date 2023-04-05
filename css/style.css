@@ -16,7 +16,15 @@
 }
 
 ul{
+    padding-right: 10px;
     list-style-type: none;
+}
+
+li{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
 }
 
 /* ELIMINARE TUTTE LE ALTEZZE FISSE CON L'INSERIMENTO DEL CONTENUTO!!! */
@@ -28,61 +36,70 @@ ul{
     justify-content: space-between;
     align-items: center;
     padding: 0 200px;       /* <--- sistemare dopo inserimento contenuti*/
-    margin-bottom: 100px;  /* <--- sistemare dopo inserimento contenuti*/ 
+  /* <--- sistemare dopo inserimento contenuti*/ 
 }
 
-li{
+.personal{
+    width: 10%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
-    width:80px;
-    border: 2px solid blue;
+    color: white;
+}
+
+.navigation{
+    font-size: 1.5rem;
+}
+
+.navigation,
+.personal-area{
+    gap: 1rem;
 }
 
 .logo{
     text-align: center;
-    width: 100px;
-    height: 50px;
-    border: 2px solid black;
+    width: 10rem;
 }
 
+.bag{
+    width: 1.5rem;
+}
+
+.guy,
+.love{
+    width: 1.5em;
+}
 
 main{
     margin-bottom: 5rem;
 }
 
-
 .container{
-    padding: 0 200px;
+    margin: 80px 200px;
     justify-content: space-between;
 
-}
-
-.row{
-    margin-top: 80px;   /* <--- sistemare dopo inserimento contenuti  */
 }
 
 .card{
     position: relative;
     width: 300px;
     height: 400px;
-    background-color: red;
-    border: 5px solid blue;
+}
+
+.adv{
+    position: absolute;
+    bottom: 30px;
+    gap: .2rem;
 }
 
 .sconto{
-    position: absolute;
-    bottom: 30px;
-    background-color:turquoise;
-    border: 2px solid black;
+    background-color:red;
+    color: white;
 }
 
 .eco{
-    bottom: 30px;
-    left: 50px;
-    position: absolute;
+
     background-color: green;
-    border: 2px solid black;
 }
 
 .heart{
@@ -94,7 +111,6 @@ main{
     background-color: white;
 }
 
-
 .foot{
     height: 100px;
     color: white;
@@ -102,7 +118,6 @@ main{
     padding: 0 200px;
     justify-content: space-between;
 }
-
 
 .alternative{
     display: none;
@@ -119,30 +134,23 @@ background-size: cover;
 
 .man2{
     background-image: url(../img/4.webp);
-
 }
 
 .woman1{
     background-image: url(../img/2.webp);
-
 }
 
 .woman2{
     background-image: url(../img/3.webp);
-    
 }
 
 .woman3{
     background-image: url(../img/5.webp);
-    
 }
 
 .woman4{
     background-image: url(../img/6.webp);
 }
-
-
-
 
 .man1:hover{
     background-image: url(../img/1b.webp);
