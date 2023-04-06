@@ -27,15 +27,18 @@ li{
     color: white;
 }
 
-
-
+header{
+    padding-bottom: 80px;
+}
 .head{
+    position: fixed;
     width: 100%;
     height: 100px;
     background-color: #FF6A00;
     justify-content: space-between;
     align-items: center;
-    padding: 0 200px;     
+    padding: 0 200px;
+    z-index: 1;     
 }
 
 .personal{
@@ -84,12 +87,13 @@ main{
 }
 
 .container{
+    flex-wrap: wrap;
     margin: 80px 200px;
     justify-content: space-between;
-
 }
 
 .card{
+    margin-bottom: 80px;
     position: relative;
     width: 300px;
     height: 400px;
@@ -107,7 +111,6 @@ main{
 }
 
 .eco{
-
     background-color: green;
 }
 
@@ -120,6 +123,10 @@ main{
     background-color: white;
 }
 
+.heart:hover{
+    display: inline-block;
+    color: red;
+}
 
 .index{
     position: absolute;
@@ -161,7 +168,7 @@ a{
 }
 
 .cover{
-background-size: cover;
+    background-size: cover;
 }
 
 .man1{
